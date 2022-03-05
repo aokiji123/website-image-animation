@@ -1,5 +1,4 @@
 const slides = document.querySelectorAll('.slide')
-clearActiveClasses()
 
 for (const slide of slides) {
     slide.addEventListener('mouseover', () => {
